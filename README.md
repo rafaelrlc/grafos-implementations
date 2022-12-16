@@ -36,7 +36,6 @@
 
   ou então para obter todas as distâncias:
 
-  make dijkstra ou apenas 'make'
 ```
 ./dijkstra -i 1 < entrada.dat
 ```
@@ -62,7 +61,6 @@
 
   ou então para obter todas as distancias:
 
-  make bellman_ford (ou apenas 'make')
 ```
 ./bellman_ford -i 1 < entrada.dat
 ```
