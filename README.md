@@ -1,5 +1,10 @@
   # grafos-implementations
-
+  
+  
+  Aluno: Rafael Ribeiro Lima Carleial
+  Professor: Rian Gabriel Pinheiro
+  
+  
   Foram implementados os seguintes algoritmos:
 
   - Dijkstra
@@ -22,7 +27,7 @@
   
   
 
-  Ex dijkstra:
+  Ex Dijkstra:
 
 
 
@@ -41,7 +46,7 @@
 ```
 
 
-  Ex floyd-warshall:
+  Ex Floyd-warshall:
 
   make floyd_warshall ou apenas 'make'
 ```
@@ -49,7 +54,7 @@
 ```
 
 
-  Ex bellman-ford:
+  Ex Bellman-Ford:
 
   make bellman_ford ou apenas 'make'
 ```
