@@ -33,6 +33,7 @@ Isso vai printar a distância mínima do vértice 1 até o 3.
 ou então para obter todas as distâncias:
 
 make dijkstra ou apenas 'make'
+
 ./dijkstra -i 1 < entrada.dat
 
 
@@ -40,6 +41,7 @@ make dijkstra ou apenas 'make'
 Ex floyd-warshall:
 
 make floyd_warshall ou apenas 'make'
+
 ./floyd_warshall < entrada.dat
 
 
@@ -47,6 +49,7 @@ make floyd_warshall ou apenas 'make'
 Ex bellman-ford:
 
 make dijkstra ou apenas 'make'
+
 ./bellman_ford -i 1 -l 3 < entrada.dat
 
 Isso vai printar a distancia minima do vértice 1 até o 3.
@@ -56,6 +59,7 @@ Isso vai printar a distancia minima do vértice 1 até o 3.
 ou então para obter todas as distancias:
 
 make bellman_ford (ou apenas 'make')
+
 ./bellman_ford -i 1 < entrada.dat
 
 
@@ -66,6 +70,7 @@ Ex prim:
 Para obter a mst:
 
 make prim ou apenas (ou apenas 'make')
+
 ./prim -s -i 1 < entrada1.dat
 
 
