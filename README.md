@@ -47,21 +47,22 @@
 
 
   Ex Floyd-warshall:
-
-  make floyd_warshall ou apenas 'make'
+```
+  make floyd_warshall
+```
 ```
 ./floyd_warshall < entrada.dat
 ```
 
 
   Ex Bellman-Ford:
-
-  make bellman_ford ou apenas 'make'
+```
+  make bellman_ford
+```
 ```
 ./bellman_ford -i 1 -l 3 < entrada.dat
 ```
   Isso vai printar a distancia minima do vértice 1 até o 3.
-
 
 
   ou então para obter todas as distancias:
@@ -75,8 +76,9 @@
   Ex prim:
 
   Para obter a mst:
-
-  make prim ou apenas (ou apenas 'make')
+```
+  make prim
+```
 ```
 ./prim -s -i 1 < entrada1.dat
 ```
