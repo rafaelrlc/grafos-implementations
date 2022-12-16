@@ -24,6 +24,7 @@ Os algoritmos de Dijkstra, Bellman-Ford e Prim possuem funcionamento semelhante 
 
 
 make dijkstra ou apenas 'make'
+
 ./dijkstra -i 1 -l 3 < entrada.dat
 
 Isso vai printar a distância mínima do vértice 1 até o 3.
