@@ -30,7 +30,7 @@
 ### Ex Dijkstra:
 
 
-  Isso vai printar a distância mínima do vértice 1 até o 3.
+  Isso vai printar a distância mínima do vértice 1 até o 3:
   
 ```
 make dijkstra ou apenas 'make'
@@ -39,9 +39,8 @@ make dijkstra ou apenas 'make'
 ./dijkstra -i 1 -l 3 < entrada.dat
 ```
 
-
   ou então para obter todas as distâncias:
-
+  
 ```
 ./dijkstra -i 1 < entrada.dat
 ```
@@ -64,7 +63,8 @@ make floyd_warshall
 ```
 make bellman_ford
 ```
-  Isso vai printar a distancia minima do vértice 1 até o 3.
+  Isso vai printar a distancia minima do vértice 1 até o 3:
+  
 ```
 ./bellman_ford -i 1 -l 3 < entrada.dat
 ```
@@ -83,7 +83,7 @@ make bellman_ford
 
 
 Para obter a mst:
-  
+
 ```
 make prim
 ```
