@@ -25,7 +25,7 @@
   Os algoritmos de Dijkstra, Bellman-Ford e Prim possuem funcionamento semelhante ao do exemplo da lista.
   
   
-  
+###### cd (pasta do algoritmo)
 
 ### Ex Dijkstra:
 
@@ -33,7 +33,7 @@
   Isso vai printar a distância mínima do vértice 1 até o 3:
   
 ```
-make dijkstra ou apenas 'make'
+make dijkstra
 ```
 ```
 ./dijkstra -i 1 -l 3 < entrada.dat
@@ -97,3 +97,6 @@ make prim
 ```
 ./prim -s -i 1 < entrada1.dat
 ```
+
+
+###### Caso o comando make (nome) não funcione, digite apenas 'make'.
