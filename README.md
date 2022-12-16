@@ -43,7 +43,7 @@
 
   make floyd_warshall ou apenas 'make'
 ```
-  ./floyd_warshall < entrada.dat
+./floyd_warshall < entrada.dat
 ```
 
 
@@ -51,7 +51,7 @@
 
   make bellman_ford ou apenas 'make'
 ```
-  ./bellman_ford -i 1 -l 3 < entrada.dat
+./bellman_ford -i 1 -l 3 < entrada.dat
 ```
   Isso vai printar a distancia minima do vértice 1 até o 3.
 
@@ -72,10 +72,11 @@
 
   make prim ou apenas (ou apenas 'make')
 ```
-  ./prim -s -i 1 < entrada1.dat
+./prim -s -i 1 < entrada1.dat
 ```
 
 
   Para obter o custo da mst:
-
-  ./prim -s -i 1 < entrada1.dat
+```
+./prim -s -i 1 < entrada1.dat
+```
