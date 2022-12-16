@@ -48,7 +48,7 @@ make floyd_warshall ou apenas 'make'
 
 Ex bellman-ford:
 
-make dijkstra ou apenas 'make'
+make bellman_ford ou apenas 'make'
 
 ./bellman_ford -i 1 -l 3 < entrada.dat
 
