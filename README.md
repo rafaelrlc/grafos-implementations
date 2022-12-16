@@ -18,14 +18,17 @@
   Como executar os códigos:
 
   Os algoritmos de Dijkstra, Bellman-Ford e Prim possuem funcionamento semelhante ao do exemplo da lista.
+  
+  
+  
 
-  ###Ex dijkstra:
+  Ex dijkstra:
 
 
 
   make dijkstra ou apenas 'make'
 ```
-  ./dijkstra -i 1 -l 3 < entrada.dat
+./dijkstra -i 1 -l 3 < entrada.dat
 ```
   Isso vai printar a distância mínima do vértice 1 até o 3.
 
@@ -35,11 +38,11 @@
 
   make dijkstra ou apenas 'make'
 ```
-  ./dijkstra -i 1 < entrada.dat
+./dijkstra -i 1 < entrada.dat
 ```
 
 
-  ###Ex floyd-warshall:
+  Ex floyd-warshall:
 
   make floyd_warshall ou apenas 'make'
 ```
@@ -47,7 +50,7 @@
 ```
 
 
-  ###Ex bellman-ford:
+  Ex bellman-ford:
 
   make bellman_ford ou apenas 'make'
 ```
@@ -61,12 +64,12 @@
 
   make bellman_ford (ou apenas 'make')
 ```
-  ./bellman_ford -i 1 < entrada.dat
+./bellman_ford -i 1 < entrada.dat
 ```
 
 
 
-  ###Ex prim:
+  Ex prim:
 
   Para obter a mst:
 
