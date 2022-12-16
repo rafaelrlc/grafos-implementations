@@ -24,8 +24,9 @@
 
   Os algoritmos de Dijkstra, Bellman-Ford e Prim possuem funcionamento semelhante ao do exemplo da lista.
   
-  
+```
 ###### cd (pasta do algoritmo)
+```
 
 ### Ex Dijkstra:
 
