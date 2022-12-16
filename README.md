@@ -27,11 +27,12 @@
   
   
 
-  Ex Dijkstra:
+### Ex Dijkstra:
 
 
-
-  make dijkstra ou apenas 'make'
+```
+make dijkstra ou apenas 'make'
+```
 ```
 ./dijkstra -i 1 -l 3 < entrada.dat
 ```
@@ -46,18 +47,22 @@
 ```
 
 
-  Ex Floyd-warshall:
+### Ex Floyd-warshall:
+
+
 ```
-  make floyd_warshall
+make floyd_warshall
 ```
 ```
 ./floyd_warshall < entrada.dat
 ```
 
 
-  Ex Bellman-Ford:
+### Ex Bellman-Ford:
+
+
 ```
-  make bellman_ford
+make bellman_ford
 ```
 ```
 ./bellman_ford -i 1 -l 3 < entrada.dat
@@ -73,15 +78,17 @@
 
 
 
-  Ex prim:
+### Ex prim:
 
-  Para obter a mst:
+
+  
 ```
-  make prim
+make prim
 ```
 ```
 ./prim -s -i 1 < entrada1.dat
 ```
+  Para obter a mst:
 
 
   Para obter o custo da mst:
