@@ -76,4 +76,5 @@ make prim ou apenas (ou apenas 'make')
 
 
 Para obter o custo da mst:
+
 ./prim -s -i 1 < entrada1.dat
