@@ -15,9 +15,9 @@
 
   Como existem várias implementações que se encaixam melhor dependendo da situação, eu resolvi implementar as que eu achei mais conveniente.
 
-  O algoritmo de Dijkstra foi implementado para grafos não direcionados mas pode ser facilmente mudado para grafos direcionados apenas apagando a linha comentada. Também pode ser encontrado na pasta a entrada do grafo sem pesos.
+  O algoritmo de Dijkstra foi implementado para grafos não direcionados mas pode ser facilmente mudado para grafos direcionados apenas apagando a linha comentada. Também pode ser encontrado na pasta uma entrada de grafo sem pesos.
 
-  O algoritmo de Bellman-Ford foi implementado para grafos direcionados, tendo na própria pasta do arquivo entradas com pesos negativos.
+  O algoritmo de Bellman-Ford foi implementado para grafos direcionados, tendo na própria pasta um arquivo de entradas com pesos negativos.
 
   O de Floyd_Warshall foi implementado para grafos não direcionados mas pode ser facilmente mudado para grafos direcionados apenas apagando a linha comentada.
 
