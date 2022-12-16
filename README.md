@@ -40,7 +40,7 @@ cd (pasta do algoritmo)
   Isso vai printar a distância mínima do vértice 1 até o 3:
   
 ```
-make dijkstra
+make
 ```
 ```
 ./dijkstra -i 1 -l 3 < entrada.dat
@@ -57,7 +57,7 @@ make dijkstra
 
 
 ```
-make floyd_warshall
+make
 ```
 ```
 ./floyd_warshall < entrada.dat
@@ -68,7 +68,7 @@ make floyd_warshall
 
 
 ```
-make bellman_ford
+make
 ```
   Isso vai printar a distancia minima do vértice 1 até o 3:
   
@@ -92,7 +92,7 @@ make bellman_ford
 Para obter a mst:
 
 ```
-make prim
+make
 ```
 ```
 ./prim -s -i 1 < entrada1.dat
@@ -106,4 +106,4 @@ make prim
 ```
 
 
-###### Caso o comando make (nome) não funcione, digite apenas 'make'.
+###### Caso o comando make não funcione, digite 'make (nome do arquivo)'.
