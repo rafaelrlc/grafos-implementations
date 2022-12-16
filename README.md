@@ -46,7 +46,7 @@ make
 ./dijkstra -i 1 -l 3 < entrada.dat
 ```
 
-  ou então para obter todas as distâncias:
+  ou então para obter todas as distâncias iniciando do vértice 1:
   
 ```
 ./dijkstra -i 1 < entrada.dat
@@ -56,6 +56,7 @@ make
 ### Ex Floyd-warshall:
 
 
+  Printa matriz com as distâncias:
 ```
 make
 ```
@@ -78,7 +79,7 @@ make
   
 
 
-  ou então para obter todas as distancias:
+  ou então para obter todas as distancias iniciando do vértice 1:
 
 ```
 ./bellman_ford -i 1 < entrada.dat
@@ -89,21 +90,19 @@ make
 ### Ex prim:
 
 
-Para obter a mst:
+  Para obter a mst:
 
 ```
 make
 ```
 ```
-./prim -s -i 1 < entrada1.dat
+./prim -i 1 < entrada1.dat
 ```
   
 
 
-  Para obter o custo da mst:
+  Para obter o custo da mst iniciando do vértice 1 :
 ```
 ./prim -s -i 1 < entrada1.dat
 ```
 
-
-###### Caso o comando make não funcione, digite 'make (nome do arquivo)'.
